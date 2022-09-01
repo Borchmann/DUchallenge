@@ -1,0 +1,70 @@
+{
+   "questionId":1,
+   "question":"What is the brand of this product?",
+   "image_local_name":"sample.pdf",
+   "image_url":"https://github.com/Jordy-VL/DUchallenge/raw/main/data/OFF/sample.pdf",
+   "ocr_output_file":"sample.json",
+   "data_split":"test",
+   "answers":[
+    "Thai Kitchen"
+   ]
+},
+{
+   "questionId":2,
+   "question":"Are there nuts in this dish?",
+   "image_local_name":"sample.pdf",
+   "image_url":"https://github.com/Jordy-VL/DUchallenge/raw/main/data/OFF/sample.pdf",
+   "ocr_output_file":"sample.json",
+   "data_split":"test",
+   "answers":[
+    "Yes"
+   ],
+   "evidence": "THIS PRODUCT CONTAINS PEANUTS"
+},
+{
+   "questionId":3,
+   "question":"Does this product contain gluten?",
+   "image_local_name":"sample.pdf",
+   "image_url":"https://github.com/Jordy-VL/DUchallenge/raw/main/data/OFF/sample.pdf",
+   "ocr_output_file":"sample.json",
+   "data_split":"test",
+   "answers":[
+    "No"
+   ],
+   "evidence": "GLUTEN-FREE"
+},
+{
+   "questionId":4,
+   "question":"How much sugar is in this product?",
+   "image_local_name":"sample.pdf",
+   "image_url":"https://github.com/Jordy-VL/DUchallenge/raw/main/data/OFF/sample.pdf",
+   "ocr_output_file":"sample.json",
+   "data_split":"test",
+   "answers":[
+    "20g"
+   ],
+   "evidence": ["Servings Per Container about 2", "Amount per serving", "Sugars 10g"]
+},
+{
+   "questionId":5,
+   "question":"What is the expiration date on the package?",
+   "image_local_name":"sample.pdf",
+   "image_url":"https://github.com/Jordy-VL/DUchallenge/raw/main/data/OFF/sample.pdf",
+   "ocr_output_file":"sample.json",
+   "data_split":"test",
+   "answers":[
+    "There is no expiration date"
+   ]
+},
+{
+   "questionId":6,
+   "question":"Is there Vitamin A in this product?",
+   "image_local_name":"sample.pdf",
+   "image_url":"https://github.com/Jordy-VL/DUchallenge/raw/main/data/OFF/sample.pdf",
+   "ocr_output_file":"sample.json",
+   "data_split":"test",
+   "answers":[
+    "No"
+   ],
+   "evidence": "Vitamin A 0%"
+}
