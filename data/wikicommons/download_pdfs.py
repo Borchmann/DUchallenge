@@ -36,10 +36,11 @@ for index, row in tqdm(df_data.iterrows()):
         error_list.append(row)
     time.sleep(DEFAULT_SLEEP_TIME)
 
-    if index % 10 == 9:
+    if index % 100 == 9:
         df = pd.DataFrame(error_list)
         df.to_csv(FILEPATH_DOWNLOADING_ERRORS,
                   mode='a',
                   header=not os.path.exists(FILEPATH_DOWNLOADING_ERRORS),
                   index=False,
                   quoting=csv.QUOTE_ALL)
+        error_list = []
