@@ -2,10 +2,11 @@ FILEPATH_DUMP = 'data/commonswiki-20220801-pages-articles-multistream-index.txt'
 FILEPATH_DUMP_CACHE_PDF = 'data/commonswiki-20220801-pages-articles-multistream-index-pdfs.txt'
 FILEPATH_DB_PDFS = 'data/commonswiki_db.csv'
 FILEPATH_CATEGORIES_PDFS = 'data/commonswiki_db_categories.csv'
+FILEPATH_DOWNLOADING_ERRORS = 'data/downloading_errors.csv'
 FILEPATH_PDFS = 'pdfs/'
 
 
-NUMBER_OF_PROCESSORS = 8
+NUMBER_OF_PROCESSORS = 16
 
 URL_INFO_TEMPLATE = "https://commons.wikimedia.org/w/api.php?action=query&titles=[[]]&format=json&prop=categoryinfo|categories|description|fileusage|info|pageterms|imageinfo&iiprop=timestamp|metadata"
 DATA_LIST_SEP = '|'
