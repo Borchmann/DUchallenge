@@ -36,4 +36,14 @@ CATEGORIES_KEYWORDS = {
     'poster': {'poster', 'posters'},
     'health': {'health', 'medical'},
     'certificate': {'certificate'},
+    # Ł
+    'order': {'executive order', 'judge order', 'staff order', 'court order'},
+    'meeting detail': {'meeting agenda', 'executive meeting', 'committee meeting', 'board meeting'},
+    'legal agreement' {'lease agreement', 'signed agreement', 'signed settlement', 'settlement agreement', 'lawsuit settlement', 'collaboration agreement', 'grant agreement', 'merger agreement'},
+    'sheet': {'summary sheet', 'data sheet', 'court sheet', 'information sheet'},
+    'manual': {'instruction manual', 'repair manual', 'user manual'},
+    'diploma': {'diploma'},
+    'payment': {'payment required', 'payment request'},
+    'request': {'request'},
+    'application': {'application redacted', 'application for', 'application form'},
 }
