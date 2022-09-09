@@ -52,6 +52,16 @@ Inspiration: https://www.kaggle.com/datasets/openfoodfacts/world-food-facts
 3. we need to come up with some filters for language, country, quality of metadata/images
 
 
+#### Moving to Gdrive
+
+We're going to use pydrive2: 
+Follow instructions there.
+
+```sh
+pip install PyDrive2
+```
+
+
 ## OCR
 
 Could optionally use free OCR: https://github.com/mindee/doctr 
