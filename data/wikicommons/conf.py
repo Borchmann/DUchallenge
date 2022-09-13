@@ -39,7 +39,7 @@ CATEGORIES_KEYWORDS = {
     # Ł
     'order': {'executive order', 'judge order', 'staff order', 'court order'},
     'meeting detail': {'meeting agenda', 'executive meeting', 'committee meeting', 'board meeting'},
-    'legal agreement' {'lease agreement', 'signed agreement', 'signed settlement', 'settlement agreement', 'lawsuit settlement', 'collaboration agreement', 'grant agreement', 'merger agreement'},
+    'legal agreement': {'lease agreement', 'signed agreement', 'signed settlement', 'settlement agreement', 'lawsuit settlement', 'collaboration agreement', 'grant agreement', 'merger agreement'},
     'sheet': {'summary sheet', 'data sheet', 'court sheet', 'information sheet'},
     'manual': {'instruction manual', 'repair manual', 'user manual'},
     'diploma': {'diploma'},
